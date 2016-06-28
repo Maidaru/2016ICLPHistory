@@ -261,8 +261,6 @@ footer{
     text-align: center;
 }
 
-
-
 /*設定nav-tabs*/
 .nav nav-tabs a {
     font-family: 'Roboto';
@@ -276,6 +274,7 @@ footer{
 
 .tab-content img {
     height: 450px;
+    z-index: -1;
 }
 
 
