@@ -256,7 +256,11 @@ footer{
 }
 
 /*設定page01-05*/
-
+.container02{
+    width: 100%;
+    height: 500px; 
+    text-align: center;
+}
 
 
 
@@ -268,11 +272,11 @@ footer{
 }
 
 .tab-contnt {
-    height: 350px;
+    height: 450px;
 }
 
 .tab-content img {
-    height: 350px;
+    height: 450px;
 }
 
 
