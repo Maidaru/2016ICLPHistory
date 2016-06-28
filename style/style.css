@@ -166,13 +166,20 @@ header{
 
 
 /*設定body：container*/
+
+/*設定upward*/
 #top{
     font-size: 40pt;
     position: fixed;
     right: 15px;
-    bottom: 65px;
+    bottom: 15px;
+    background-color: firebrick;
+    border-radius: 50%;
 }
 
+a #top {
+    color: lavenderblush;
+}
 
 
 
