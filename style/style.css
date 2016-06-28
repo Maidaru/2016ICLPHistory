@@ -226,6 +226,7 @@ a .thumbnail:hover,
 a .thumbnail:active {
     text-decoration: none;
     border-style: double;
+    color: darkred;
 }
 
 .thumbnail img {
