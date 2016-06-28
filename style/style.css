@@ -2,8 +2,10 @@
 nav{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 85%;
     height: 80px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
     overflow: visible;
 }
@@ -35,6 +37,7 @@ nav a:visited{
 .dropdown04 a:active,
 .dropdown05 a:active {
     text-decoration: underline;
+    color: #003262;
 }
 
 .logo a:active,
@@ -137,11 +140,13 @@ nav a:visited{
     border-color: transparent transparent transparent black;
 }
 
+
 /*設定header*/
 header{
     background-color: white;
     font-family: 'Roboto';
     padding: 0px;
+    margin: 0;
 }
 
 .container01{
@@ -160,6 +165,13 @@ header{
 }
 
 
+/*設定body：container*/
+#top{
+    font-size: 40pt;
+    position: fixed;
+    right: 15px;
+    bottom: 65px;
+}
 
 
 
