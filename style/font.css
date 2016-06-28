@@ -1,0 +1,41 @@
+/*    icon來源設定*/
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons)
+    /*    html寫法： <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   */
+    
+    
+/*    中文字型來源設定*/
+
+/*思源黑體Noto Sans TC*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+     /*    html寫法：<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosanstc.css">*/
+
+/*仿宋體cwTeXFangSong*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+     /*    html寫法：<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css">*/  
+
+/*楷體cwTeXKai*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+    /*    html寫法：<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexkai.css">*/  
+
+/*圓體cwTeXYen*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+    /*    html寫法：<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexyen.css">*/  
+
+/*明體cwTeXMing*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+    /*    html寫法：<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexming.css">*/  
+
+/*黑體cwTeXHei*/
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+    /*    html寫法：<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/cwtexhei.css">*/ 
+
+
+
+
+/*    英文字型來源*/
+
+/*Open Sans*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+

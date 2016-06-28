@@ -1,0 +1,206 @@
+/*    設定nav*/
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    overflow: visible;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 1.5pt;
+}
+
+nav a{
+    font-family: 'Lora', serif;  
+}
+
+nav a,
+nav a:visited{
+    text-decoration: none;
+    color: brown;
+}
+
+.dropdown01 a:hover,
+.dropdown02 a:hover,
+.dropdown03 a:hover,
+.dropdown04 a:hover,
+.dropdown05 a:hover,
+.dropdown01 a:active,
+.dropdown02 a:active,
+.dropdown03 a:active,
+.dropdown04 a:active,
+.dropdown05 a:active {
+    text-decoration: underline;
+}
+
+.logo a:active,
+.logo a:hover{
+    border-style: inset;
+    border-color: #003262;
+}
+
+.logo,
+.dropdown01,
+.dropdown02,
+.dropdown03,
+.dropdown04,
+.dropdown05 {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 1.5pt;
+}
+
+.logo{
+    margin-right: 80px;
+    vertical-align: middle;
+}
+.logo img {
+    height: 75px;
+}
+
+.dropdown01,
+.dropdown02,
+.dropdown03,
+.dropdown04,
+.dropdown05 {
+    margin-right: 20px;
+    font-size: 15pt;
+    line-height: 50px;
+}
+
+/*設定dropdown-menu*/
+.dropdown-menu,{
+    display: none;
+}
+
+.dropdown01:hover #menu01,
+.dropdown02:hover #menu02,
+.dropdown03:hover #menu03,
+.dropdown04:hover #menu04,
+.dropdown05:hover #menu05 {
+    display: block;
+    position: fixed;
+    top: 55px;
+    left: 20vw;
+    right: 10px;
+    max-width: 800px;
+    min-height: 260px;   
+    padding: 15px 0px 15px 30px; 
+    background-color: ;
+}
+   
+.dropdown-menu img {
+    width: 100%;
+    padding-left: ;
+}
+/*img 350x255，固定width=350px*/
+
+.dropdown-menu p{
+    font-size: 12pt;
+    line-height: 15pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+/*設定.dropdown-menu hyperlink*/
+.caret02{
+    border-style:solid;
+    border-width: 4px;
+    border-color: transparent transparent transparent brown;
+    display: inline-block;
+}
+
+.hyperlink li{
+    line-height: 15pt;
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+.hyperlink a{
+    font-size: 12pt;
+}
+
+.hyperlink a:hover,
+.hyperlink a:active {
+    text-decoration: none;
+    color: #003262;
+}
+
+.hyperlink a:hover .caret02,
+.hyperlink a:active .caret02{
+    border-color: transparent transparent transparent black;
+}
+
+/*設定header*/
+header{
+    background-color: white;
+    font-family: 'Roboto';
+    padding: 0px;
+}
+
+.container01{
+    width: 100%;
+    height: 400px;    
+}
+
+#myCarousel {
+    width: 100%;
+    height: 400px;
+}
+
+#myCarousel img {
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+/*設定nav-tabs*/
+nav nav-tabs a {
+    font-family: 'Roboto';
+    font-size: 12pt;
+    
+}
+
+
+
+/*設定carousel slide*/
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    background-color:darkred;    
+    height: 50px;
+    bottom: 0;
+    text-align: center;
+    line-height: 50px;
+    color: azure;
+    font-family: 'Lora', serif;
+    letter-spacing: 1pt;
+}
+/*想辦法解決最底下露出一條白色的問題*/
+
+
+
+
+
+.nav {
+    
+}
