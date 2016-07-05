@@ -268,17 +268,32 @@ footer{
 }
 
 .container03 ul li a{
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'cwTeXYen';
     font-size: 15pt;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+#tab4 a {
+    font-family: 'Roboto', 'cwTeXYen';
+    font-size: 16pt;
     color: darkslategray;
 }
 
-.container03 ul li a:hover,
-.container03 ul li a:active {
-    font-family: 'Roboto';
+.container03 ul li a:active,
+.container03 ul li a:hover {
+    font-family: 'Roboto', 'cwTeXYen';
     font-size: 15pt;
     color: lightcoral;
     background-color: lemonchiffon;
+}
+
+#tab4 a:hover,
+#tab4 a:active{
+    font-family: 'Roboto', 'cwTeXYen';
+    font-size: 16pt;
+    background-color: lemonchiffon;
+    color: lightcoral;
 }
 
 .tab-content {
@@ -290,13 +305,14 @@ footer{
 .tab-content h4,
 .tab-content p {
     font-family: 'Roboto';
-    color: currentColor;
+    color: darkslategray;
     font-size: 12pt;
     text-align: left;
 }
 
 .media-heading a:hover,
-.media-heading a:active {
+.media-heading a:active,
+.media-heading a:visited {
     text-decoration: none;
     background-color: ivory;
     padding: 10px;
@@ -308,12 +324,21 @@ footer{
 }
 
 .media-object .date{
-font-family: 'Lora';
+    font-family: 'Lora';
     font-size: 15pt;
     font-weight: bold;
     font-style: italic;
     color: maroon;
 }
+
+a>.year {
+   font-family: 'Lora';
+    font-size: 12pt;
+    font-weight: bold;
+    color: maroon; 
+    margin-right: 10pt;
+}
+
 /*= timeline css for data in one side =*/
 .timeline{
     float: left; 
