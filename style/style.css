@@ -319,7 +319,7 @@ footer{
 }
 
 .media-object {
-    position: fixed;
+    position: absolute;
     margin-left: -8vw;
 }
 
