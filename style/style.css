@@ -77,7 +77,7 @@ nav a:visited{
 }
 
 /*設定dropdown-menu*/
-.dropdown-menu,{
+.dropdown-menu{
     display: none;
 }
 
@@ -97,6 +97,13 @@ nav a:visited{
     background-color: ivory;
     border-style: none;
 }
+
+.dropdown06:hover #menu06 {
+    display: block;
+    position: relative;
+}
+
+#menu06 a
    
 .dropdown-menu img {
     width: 100%;
